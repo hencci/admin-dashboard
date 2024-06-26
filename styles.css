@@ -63,7 +63,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
-    padding: 15px 70px 10px 20px;
+    padding: 15px;
     gap: 25px;
 }
 
@@ -79,14 +79,15 @@ header {
 }
 .search>input {
     background-color: #E5E7EB;
-    margin-right: 3rem;
+    margin-right: 1rem;
     border-radius: 20px 20px;
     border-style: none;
 }
 
 .icon {
-    width: min(1rem, 1.5vw);
+    width: 2vw;
     height: auto;
+    min-width: 2vw;
 }
 
 .profile-pic {
