@@ -105,6 +105,30 @@ header {
     width: 50px;
 }
 
+.user-buttons {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+button{
+    background-color: #0284C7;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 20px;
+    font-size: min(1rem, 1.5vw);
+}
+
+.user-buttons>div{
+    font-size: min(1rem, 1.5vw);
+}
+
+.username {
+    font-size: min(1.5rem, 2vw);
+}
+
 main {
     background-color: #E5E7EB;
 }
