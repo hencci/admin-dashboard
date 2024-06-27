@@ -159,6 +159,9 @@ main {
   .announcements-main {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: white;
+    border-radius: 10px 10px;
+    padding: 10px 30px;
   }
   
   .trending-main {
@@ -191,4 +194,9 @@ main {
     color: gray;
     font-size: min(0.8rem, 1vw);
     padding: 20px 0px;
+  }
+
+  .anno-title {
+    color: black;
+    font-size: min(1rem, 1.1vw);
   }
