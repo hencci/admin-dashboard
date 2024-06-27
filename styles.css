@@ -170,3 +170,13 @@ main {
     gap: 30px;
   }
   
+  .projects-main>div {
+    background-color: white;
+    border-left: solid orange 10px;
+    padding: 30px 20px 10px;
+    border-radius: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: gray;
+    font-size: min(1rem, 1vw);
+  }
