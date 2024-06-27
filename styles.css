@@ -131,4 +131,8 @@ button{
 
 main {
     background-color: #E5E7EB;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 30px 40px 15px;
+    row-gap: 25px;
 }
