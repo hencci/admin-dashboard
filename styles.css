@@ -144,6 +144,8 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .pro-icons {
@@ -179,4 +181,14 @@ main {
     grid-template-columns: 1fr;
     color: gray;
     font-size: min(1rem, 1vw);
+  }
+
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  .announcements-main>div {
+    color: gray;
+    font-size: min(0.8rem, 1vw);
+    padding: 20px 0px;
   }
