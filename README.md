@@ -1,0 +1,1 @@
+This project is shows the display page of an admin dashboard. I used CSS grid to show how relevant the grid display method is in creating layouts.
